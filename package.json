@@ -13,6 +13,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Thomas Wiesner - vomtom.at",
+  "author": "Paschal - vomtom.at",
   "license": "ISC"
 }
