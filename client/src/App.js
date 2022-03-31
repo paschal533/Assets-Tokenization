@@ -53,7 +53,7 @@ class App extends Component {
   }
 
   listenToTokenTransfer = () => {
-   // this.tokenInstance.events.Transfer({to: this.accounts[0]}).on("data",this.updateUserTokens);
+   this.tokenInstance.events.Transfer({to: this.accounts[0]}).on("data",this.updateUserTokens);
   }
 
   handleBuyTokens = async() => {
