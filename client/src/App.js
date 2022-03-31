@@ -49,7 +49,7 @@ class App extends Component {
 
   updateUserTokens = async () => {
     let userTokens = await this.tokenInstance.methods.balanceOf(this.accounts[0]).call();
-    this.setState({userTokens: userTokens});
+    //this.setState({userTokens: userTokens});
   }
 
   listenToTokenTransfer = () => {
