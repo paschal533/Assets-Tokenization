@@ -24,7 +24,7 @@ contract("TokenSale Test", async (accounts) => {
         expect(balanceOfTokenSaleSmartContract).to.be.a.bignumber.equal(totalSupply);
     })
 
-    it("should be possible buy tokens", async () => {
+    it("should be possible to buy tokens", async () => {
         let tokenInstance = await Token.deployed();
         let tokenSaleInstance = await TokenSale.deployed();
         let kycInstance = await KycContract.deployed();
