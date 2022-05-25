@@ -2,7 +2,7 @@ const Token = artifacts.require("MyToken");
 
 const chai = require("./setupchai.js");
 const BN = web3.utils.BN;
-const expect = chai.expect;
+//const expect = chai.expect;
 
 require("dotenv").config({path: "../.env"});
 
