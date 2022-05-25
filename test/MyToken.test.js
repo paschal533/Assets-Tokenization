@@ -4,7 +4,7 @@ const chai = require("./setupchai.js");
 const BN = web3.utils.BN;
 const expect = chai.expect;
 
-//require("dotenv").config({path: "../.env"});
+require("dotenv").config({path: "../.env"});
 
 contract("Token Test", async (accounts) => {
 
